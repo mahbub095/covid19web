@@ -111,24 +111,5 @@
     <div class="container">
         <h1 align="center"> Check Your Area</h1>
     </div>
-
-    <div class="container">
-
-        <table id="data" class="table table-bordered">
-            <thead>
-            <tr>
-                <th scope="col">Districts</th>
-                <th scope="col">Confirmed</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>bjhjhbjhb</td>
-                <td>nkjbjk</td>
-
-            </tr>
-            </tbody>
-        </table>
-    </div>
+ @include('bdtable')
 @endsection
