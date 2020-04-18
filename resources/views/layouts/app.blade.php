@@ -12,6 +12,18 @@
 
 </head>
 <body>
+<nav class="navbar navbar-expand-lg  nav-custom-color">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="{{route('worldtable')}}">World Covid Status <span class="sr-only">(current)</span></a>
+        </li>
+
+    </ul>
+</nav>
 @yield('content')
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>

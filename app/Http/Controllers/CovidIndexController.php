@@ -22,7 +22,7 @@ class CovidIndexController extends Controller
         $total_deaths = $obj->deaths;
         $total_recovered = $obj->recovered;
         $total_active = $obj->active;
-        return view('index', compact('total_cases', 'total_deaths', 'total_recovered', 'total_active','list_data','newlist', 'bdtable','country', 'countries_data'));
+        return view('index', compact('total_cases', 'total_deaths', 'total_recovered', 'total_active','list_data','newlist', 'bdtable','country'));
     }
 
     //Bd api fetch
@@ -33,6 +33,8 @@ class CovidIndexController extends Controller
 
         ]);
     }
+
+
 
 
 
